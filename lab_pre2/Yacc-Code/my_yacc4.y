@@ -1,4 +1,7 @@
 %{
+/*********
+汇编代码
+*********/
 
 #include<stdio.h>
 #include<stdlib.h>
