@@ -1,4 +1,7 @@
 %{
+/*******
+中缀->后缀
+******/
 
 #include<stdio.h>
 #include<stdlib.h>
