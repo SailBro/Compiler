@@ -1,0 +1,25 @@
+digraph LinkedList {
+node [shape=ellipse];
+Node1 [label="1"];
+Node2 [label="2"];
+Node3 [label="3"];
+Node4 [label="4"];
+Node5 [label="5"];
+Node6 [label="6"];
+Node8 [label="8"];
+Node9 [label="9"];
+Node10 [label="10"];
+Node12 [label="12"];
+Node1 -> Node2[label="a"];
+Node3 -> Node4[label="b"];
+Node5 -> Node1[label="#"];
+Node5 -> Node3[label="#"];
+Node2 -> Node6[label="#"];
+Node4 -> Node6[label="#"];
+Node6 -> Node8[label="c"];
+Node9 -> Node10[label="b"];
+Node8 -> Node9[label="#"];
+Node10 -> Node12[label="#"];
+Node8 -> Node12[label="#"];
+Node10 -> Node9[label="#"];
+}
