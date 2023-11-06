@@ -1736,7 +1736,7 @@ int yylex()
         t=getchar();
         if(t==' ' || t=='\t'||t=='\n')
             ;
-        else if (isdigit(t)||(t>='a'&& t<='z')||(t>='A'&&t<='Z')){
+        else if (isdigit(t)||(t>='a'&& t<='z')||(t>='A'&&t<='Z')||t=='#'){
             yylval.cval = t;
             return CHAR;
         }
