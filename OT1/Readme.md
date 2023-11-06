@@ -19,5 +19,5 @@ Step2：打开终端，输入命令`yacc Thompson.y`，生成y.tab.c
 Step3：输入命令`g++ y.tab.c -o exe`，生成可运行文件exe
 Step4：输入命令`./exe`进入程序测试
 Step5：输入测试样例(a|b)cb*;（注意需要添加`;`作为结尾符）然后得到input.dot
-Step6：输入命令`t -Tpng input.dot -o output.png`得到最终的NFA可视化结果output.png
+Step6：输入命令`dot -Tpng input.dot -o output.png`得到最终的NFA可视化结果output.png
 ```
